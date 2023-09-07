@@ -44,6 +44,7 @@
         width: 100%; /* Điều chỉnh kích thước khối khóa học */
         /* Các thuộc tính khác của khối khóa học */
         height: 50%;
+        margin-left: 100px;
     }
     .progress-container{
         display: none;
@@ -146,10 +147,10 @@
         padding-right: 16px;
         overflow: hidden;
     }
-
     .course {
         width: 100%; /* Điều chỉnh kích thước khối khóa học */
         /* Các thuộc tính khác của khối khóa học */
+        margin-left: 100px;
     }
     .progress-container{
         display: none;
