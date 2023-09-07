@@ -40,7 +40,17 @@
         padding: 12px 0;
         display: inline-block;
     }
-    
+    .course {
+        width: 100%; /* Điều chỉnh kích thước khối khóa học */
+        /* Các thuộc tính khác của khối khóa học */
+        height: 50%;
+    }
+    .progress-container{
+        display: none;
+    }
+    .course p {
+        display: none;
+    }
 }
 
 /* Mobile */
@@ -137,5 +147,14 @@
         overflow: hidden;
     }
 
-    
+    .course {
+        width: 100%; /* Điều chỉnh kích thước khối khóa học */
+        /* Các thuộc tính khác của khối khóa học */
+    }
+    .progress-container{
+        display: none;
+    }
+    .course p {
+        display: none;
+    }
 }
