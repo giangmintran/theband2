@@ -1,0 +1,141 @@
+
+/* PC */
+
+@media  (min-width: 1024px){
+
+}
+
+/* Tablet */
+
+@media  (min-width: 740px) and (max-width: 1024px){
+    
+}
+
+/* Tablet & Mobile */
+
+@media  (max-width: 1024px){
+    #container .place-buy-btn{
+        padding: 15px 16px;
+    }
+
+    .contact-left{
+        line-height: 2.0;
+    }
+
+    .contact-right .form-control{
+        padding: 15px;
+    }
+
+    #footer .social-list {
+        font-size: 48px;
+    }
+
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+    #footer .copyright{
+        font-size: 32px;
+    }
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+    
+}
+
+/* Mobile */
+
+@media  (max-width: 740px){
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #nav {
+        display: block;
+        width: 100%;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav > li:hover > a  {
+        color: #000;
+        background-color: #ccc;
+        display: block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 42px;
+        line-height: 38px;
+    }
+
+    #container .member-item{
+        width: 100%;
+        margin-top: 32px;
+
+    }
+
+    #container .member-image .member-picture {
+        width: 60%;
+        height: auto;
+    }
+
+    #container .place-picture{
+        height: auto;
+    }
+
+    .contact-right{
+        margin-top: 32px;
+    }
+
+    #container .place-buy-btn{
+        width: 100%;
+        padding: 15px 16px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .searchbtn {
+        display: none;
+    }   
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+
+    #container .content-section {
+        width: 800px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 64px 0px 112px;
+        padding-left: 16px;
+        padding-right: 16px;
+        overflow: hidden;
+    }
+
+    
+}
