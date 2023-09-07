@@ -192,7 +192,6 @@ html {
 #slider {
     margin-top: 46px;
     padding-top: 50%; /* 50% của chính nó*/
-    background: url(/assets/img/Slider/la.jpg) top center / cover no-repeat;
     position: relative;
 }
 
@@ -556,3 +555,4 @@ header.modal-header{
 #footer .copyright a{
     color: rgba(0, 0, 0 , 0.7);
 }
+
